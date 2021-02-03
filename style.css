@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.container {
+  padding: 20px;
+  margin: 10px 100px;
+  text-align: center;
+  color: rgb(99, 99, 99);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header__title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header__title h1 {
+  font-size: 3rem;
+}
+
+.profile__img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.small__container {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.242);
+  border-radius: 4px;
+  margin: 25px auto;
+  width: 60%;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(94, 94, 94, 0.06),
+    0 2px 2px rgba(0, 0, 0, 0.06),
+    0 4px 4px rgba(0, 0, 0, 0.06),
+    0 8px 8px rgba(0, 0, 0, 0.06),
+    0 16px 16px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+.img__icon {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 15px;
+}
+
+.img__icon__right {
+  right: 15px;
+}
+
+.img__icon__left {
+  left: 15px;
+}
+
+.small__container h3 {
+  font-size: 2rem;
+}
+
+.btn__links {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.btn__links ul {
+  list-style-type: none;
+}
+
+.btn__links li {
+  display: inline-block;
+  margin: 10px 100px;
+}
+
+.btn__links a {
+  color: rgb(99, 99, 99);
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 1px solid rgb(86, 86, 111);
+  padding: 10px 50px;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.btn__links a:hover {
+  background-color: rgb(120, 120, 120);
+  color: white;
+  border: 1px solid white;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    padding: 15px;
+    margin: 10px 60px;
+  }
+
+  .header__title h1 {
+    font-size: 2rem;
+  }
+
+  .profile__img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+  }
+
+  .small__container {
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+  }
+
+  .small__container h3 {
+    font-size: 1.5rem;
+  }
+
+  .btn__links {
+    padding: 15px;
+  }
+
+  .btn__links li {
+    display: block;
+    margin: 50px auto;
+  }
+
+  .btn__links a {
+    font-size: 1rem;
+    padding: 10px 40px;
+    margin: 15px;
+  }
+
+  .img__icon {
+    height: 40px;
+    width: 40px;
+    top: 5px;
+  }
+
+  .img__icon__right {
+    right: 5px;
+  }
+
+  .img__icon__left {
+    left: 5px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    padding: 10px;
+    margin: 10px 40px;
+  }
+
+  .header__title h1 {
+    font-size: 1.5rem;
+  }
+
+  .profile__img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+  }
+
+  .small__container {
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  .small__container h3 {
+    font-size: 1.2rem;
+  }
+
+  .btn__links {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  .img__icon {
+    height: 20px;
+    width: 20px;
+    top: 5px;
+  }
+}
