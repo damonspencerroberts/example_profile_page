@@ -92,6 +92,13 @@ footer {
   text-align: center;
 }
 
+@media (max-width: 1200px) {
+  .img__icon {
+    height: 30px;
+    width: 30px;
+  }
+}
+
 @media (max-width: 960px) {
   .container {
     padding: 15px;
@@ -134,8 +141,6 @@ footer {
   }
 
   .img__icon {
-    height: 40px;
-    width: 40px;
     top: 5px;
   }
 
